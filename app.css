@@ -61,5 +61,22 @@ body{
     padding: 15px 25px;
     width: 100%;
     max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pricing-plan{
+    border-bottom: #e1f1ff 1px solid;
+}
+
+.pricing-plan:last-child{
+    border-bottom: none;
+}
+
+.pricing-img{
+    margin-bottom: 25px;
+    max-width: 100%;
 }
 
